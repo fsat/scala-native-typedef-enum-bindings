@@ -4,8 +4,8 @@
 #define enumfoo_h__
 
 typedef enum {
-  CACTUS,
-  PINE
+  CACTUS = 0,
+  PINE = 1
 } Plant;
 
 extern void print_plant_enum_name(Plant input);
